@@ -1,0 +1,33 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/polenk0/VS/TIMP/polenk0/workspace/projects/lab7]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/polenk0/VS/TIMP/polenk0/workspace/projects/lab7]> "cmake" "--version"
+cmake version 3.29.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/polenk0/VS/TIMP/polenk0/workspace/projects/lab7/_builds/default`
+  `--`
+]
+[/home/polenk0/VS/TIMP/polenk0/workspace/projects/lab7]> "cmake" "--build" "/home/polenk0/VS/TIMP/polenk0/workspace/projects/lab7/_builds/default" "--"
+[ 50%] Built target print
+[100%] Built target demo
+Execute command: [
+  `ctest`
+]
+[/home/polenk0/VS/TIMP/polenk0/workspace/projects/lab7/_builds/default]> "ctest"
+*********************************
+No test configuration file found!
+*********************************
+Usage
+
+  ctest [options]
